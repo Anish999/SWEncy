@@ -8,7 +8,7 @@ export default function Navbar() {
       <Container>
         <Link to='/'>
           {' '}
-          <Menu.Item name='star wars API' />
+          <Menu.Item name='SWEncy' />
         </Link>
         <Link to='/people'>
           {' '}
