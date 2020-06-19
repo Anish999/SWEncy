@@ -1,69 +1,39 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+ReadMe
 
-## Available Scripts
+SWEncy, as the name suggests, is a Star Wars Encyclopedia. It is a read only website as of now, yet to be hosted on the cloud. It is written with JavaScript using React. It is using SWAPI, an online API for all the Star Wars data, for the backend. There are some features that are working and some more that I am working on. Here’s a list of few of them.
 
-In the project directory, you can run:
+Features:
+	‘People’ page for displaying all the characters from the movie series
+	‘Planets’ page for displaying all the planets’ information
+	SWAPI integration for continuous data fetching
+	Semantic UI for better UI
+	Cards to display lists, they can be flipped to learn more about particular item
+	Pagination at the bottom of the pages that have more than a page long (i.e 10 items) data/cards
+	Parallax integrated Home page with clickable links to People and Planets Page
+	A simple Navigation Bar for easy routing and navigation
 
-### `npm start`
+Future Goals:
+	Node.js backend integration
+	Mongo dB for saving information
+	Users login and authentication to get the personalized views and favorites
+	Add Favorites button to each card for logged in users
+	More tabs like ‘Films’, ‘Starships’, ‘Vehicles’, etc.
+	Dynamic Image binding for each card, unique to object ID
+	‘Summary’ and ‘Clips’ section for people who want to read/watch particular scenes 
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Running the project on your device:
+	As far as I can tell, you wouldn’t have to worry about the backend Node.js project because it will be hosted and the API will be available within the React project
+	First of all, you need to have Node.js installed on your computer.
+	To check the version, just go to the command line and type; node –v 
+	Npm should be installed already, you can check, just to be sure: npm –v
+	Once they’re installed, the environment setup is basically done 
+	Now clone/ download the project from Github 
+	You can open the project with any IDE you like, I prefer VS Code
+	Now go to the project directory from the terminal and type: npm install
+	This installs all packages needed to run the project
+	Once installed, type: npm start and you’re good to go
+	There shouldn’t be any problems, but if there occurs any, shoot me an email at manandhar58@gmail.com
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Enjoy!
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-# SWEncy
